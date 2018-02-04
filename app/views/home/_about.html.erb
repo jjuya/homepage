@@ -1,4 +1,4 @@
-<section id="about" class="section">
+<section id="about" class="section jg">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -6,21 +6,19 @@
       </div>
       <div class="col-sm-12">
         <div class="row">
-          <div class="col-sm-6 text-left">
-            <p><img src="<%= asset_path 'about.jpg' %>" alt="This is me" class="image img-circle img-responsive"></p>
-            <p class="social">
-              <a href="https://www.facebook.com/jjuya9381" title="" class="facebook"><i class="fa fa-facebook"></i>
-              <a href="https://www.instagram.com/jju_park/" title="" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="https://github.com/jjuya" title="" class="gplus"><i class="fa fa-github"></i></a>
-              <a href="#" title="" class="email"><i class="fa fa-envelope"></i></a>
+          <div class="col-sm-6">
+            <p>
+              <img src="<%= asset_path 'about.jpg' %>" alt="This is me" class="image img-circle img-responsive">
             </p>
           </div>
           <div class="col-sm-6">
             <p>
-              Received overcame oh sensible so at an. Formed do change merely to county it.
-              <strong>Am separate contempt</strong> domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.
+              개발자에게 필요한 역량은 '개발 능력', '업무 이해도' 등 여러 가지가 있습니다.<br>
+              제가 생각하는 개발자는 Needs를 Goods로 바꿀 수 있는 능력을 가진 사람입니다.<br>
+              사용자에 대한 <strong>관심과 이해</strong>, 개발한 프로그램에 대한 <strong>책임감</strong>을 가지고,<br>
+              사용자의 가치를 높여주는 서비스를 제공하는 개발자를 꿈꿉니다.
             </p>
-
+            <canvas id="myChart" width="400" height="400"></canvas>
           </div>
         </div>
       </div>
@@ -28,3 +26,44 @@
     </div>
   </div>
 </section>
+
+<script type="text/javascript">
+  // Any of the following formats may be used
+  var ctx = document.getElementById("myChart");
+
+  var chartDatas = {
+    labels: ['돈', '워라밸', '경험', '협력', '확신', '사람', '성취감', '봉사'],
+    datasets: [{
+        label: '가치관',
+        data: [50, 90, 75, 60, 70, 80, 60, 70],
+        backgroundColor: 'rgba(108, 178, 229, 0.2)',
+        borderColor: 	'#67b0e4',
+        pointBackgroundColor: '#67b0e4',
+        pointBorderColor: '#ffffff',
+        pointBorderWidth: 2
+    }]
+  };
+
+  var chartOptions = {
+    scale: {
+      ticks: {
+        beginAtZero: true,
+        min: 0,
+        max: 100,
+        stepSize: 20
+      },
+      pointLabels: {
+        fontSize: 13
+      }
+    },
+    legend: {
+      position: 'center'
+    }
+  };
+
+  var myRadarChart = new Chart(ctx, {
+    type: 'radar',
+    data: chartDatas,
+    options: chartOptions
+  });
+</script>

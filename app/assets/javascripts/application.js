@@ -15,6 +15,7 @@
 //= require turbolinks
 
 //= require bootstrap
+//= require Chart.min
 //= require jquery.cookie
 //= require ekko-lightbox
 //= require front

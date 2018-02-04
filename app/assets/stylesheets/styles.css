@@ -14,6 +14,9 @@ GENERAL
 =====================
 
 */
+
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
 html {
   height: 100%;
 }
@@ -39,7 +42,7 @@ section.background-gray-lightest {
 }
 .italic {
   font-style: italic;
-  font-family: "Georgia", "Times New Roman", Times, serif;
+  font-family: "Jeju Gothic";
 }
 .heading {
   text-align: left;
@@ -62,6 +65,7 @@ section.background-gray-lightest {
   }
 }
 .img-responsive {
+
   margin: 0 auto;
 }
 .no-space .box {
@@ -536,7 +540,7 @@ STYLE SWITCHER FOR DEMO
 }
 /* navbar */
 .navbar {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Jeju Gothic";
   min-height: 50px;
   margin-bottom: 0;
   border-top: none;
@@ -607,7 +611,7 @@ STYLE SWITCHER FOR DEMO
   padding: 10px 15px;
   font-size: 20px;
   line-height: 24px;
-  height: 100px;
+  height: 50px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -656,8 +660,8 @@ STYLE SWITCHER FOR DEMO
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding-top: 13px;
+    padding-bottom: 13px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
@@ -703,7 +707,7 @@ STYLE SWITCHER FOR DEMO
   }
 }
 .navbar-default {
-  background-color: #b3cad8;
+  background-color: #67b0e4;
   border-bottom-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -823,7 +827,7 @@ STYLE SWITCHER FOR DEMO
 }
 /* scaffolding */
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Jeju Gothic";
   font-size: 16px;
   line-height: 1.55;
   color: #000000;
@@ -900,7 +904,7 @@ hr {
 /* buttons  */
 .btn {
   font-weight: 700;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Jeju Gothic";
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: 6px 12px;
@@ -1029,7 +1033,7 @@ fieldset[disabled] .btn-transparent.active {
 }
 /* labels */
 .label {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Jeju Gothic";
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -1079,7 +1083,7 @@ label {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 14px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Jeju Gothic";
   font-weight: bold;
 }
 .pager li {
@@ -1108,7 +1112,7 @@ label {
 /* pagination */
 .pagination {
   margin: 24px 0;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Jeju Gothic";
   border-radius: 0;
 }
 .pagination > li > a,
@@ -1194,7 +1198,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Jeju Gothic";
   font-weight: 700;
   line-height: 1.2;
   color: #000000;

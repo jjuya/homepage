@@ -1,0 +1,7 @@
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+#myChart {
+  width: 100%;
+  height: 500px;
+  font-family: 'Jeju Gothic';
+}
