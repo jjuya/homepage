@@ -64,6 +64,9 @@ GEM
       sass (>= 3.2)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    glyphicons-rails (0.1.2)
+      sass (~> 3.3)
+      sass-rails
     i18n (0.9.3)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -166,6 +169,7 @@ DEPENDENCIES
   chart-js-rails
   coffee-rails (~> 4.1.0)
   font-awesome-sass
+  glyphicons-rails
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.9)
